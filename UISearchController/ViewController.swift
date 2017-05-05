@@ -27,6 +27,8 @@ class ViewController: UITableViewController {
         // Setup the Scope Bar
         searchController.searchBar.scopeButtonTitles = ["Tat ca", "Trai cay", "Hoa qua", "Khac"]
         tableView.tableHeaderView = searchController.searchBar
+        
+        
         candies = [
             Candy(category:"Trai cay", name:"chomchom"),
             Candy(category:"Trai cay", name:"dua"),
